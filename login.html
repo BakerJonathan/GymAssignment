@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jim Gym</title>
+    <!-- <script src="https://kit.fontawesome.com/3e109071fd.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="fillScreen">
+
+<!-- Nav -->
+        <nav>
+            <div class="nav-container">
+                <div class="navbar-brand"><a href="index.html">Jim Gym</a></div>
+                <div class="navbar-list">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#events" class="nav-link">Events</a>
+                        </li>
+                        <!-- Makes sense that login isn't on the login page and vise versa -->
+                        <!-- <li class="nav-item">
+                            <a href="login.html" class="nav-link">Login</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="logout.html" class="nav-link">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+<section class="logPage">
+    <img src="static/Backgrounds/risen-wang-20jX9b35r_M-unsplash.jpg" alt="Black and white gym" class="background">
+    <!-- Items in login box -->
+    <div class="loginContainer roundedBox">
+        <div class="signIn">Sign In</div>
+        <!-- Are these the form's you're looking for? hopefully -->
+        <form>
+            <label for="username">Email</label><br>
+            <input type="text" class="roundedBox" placeholder="Enter Email"><br><br>
+            <label for="password">Password</label>
+            <a href="#" class="forgotPass">Forgot Password</a><br>
+            <input type="password" class="roundedBox" placeholder="Enter Password"><br><br>
+        </form>
+        <button  class="roundedBox" onclick="window.location.href='#';">Continue</button><br><br>
+
+    </div><br>
+
+    <!-- new to segment -->
+    <div class="newCont">
+        <div class="new roundedBox">New to Jim Gym?</div><br>
+        <button class="roundedBox" onclick="window.location.href='#';">Create Your Jim Account</button>
+    </div>
+
+</section>
+<footer>        
+    <div class="copy"> © 150 B.C.- 400 A.D, Jimgymfakecompany.com </div>
+</footer>
+
+</body>
+</html>

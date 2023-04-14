@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jim Gym</title>
+    <script src="https://kit.fontawesome.com/3e109071fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Auth:Jonathan Baker -->
+    <!-- Date:4-14-2023 -->
+    <!-- Desc:An example gym website, consisting of four pages. Frontend only. -->
+    <!-- Rant:I realize I've not done these header description section, whoops. For this project I opted towards
+        using flexbox, as I've used mainly bootstrap prior. I only realized after I finished that the options were
+        grid and bootstrap, so I shifted the about page and landing page to use some grid. Hopefully that'll suffice. -->
+
+
+
+    <!-- Nav -->
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand"><a href="index.html">Jim Gym</a></div>
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#events" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logout.html" class="nav-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main section for landing page -->
+
+    <section class="homeBox">
+
+        <h1 class>For all your fitness needs</h1>
+        <div class="equipPanel topPanel">
+            <h1 class="equipText">Whether you're chasing the trail of Usain Bolt,</h1>
+            <img src="static/Backgrounds/ryan-de-hamer-pCT8ag1o3nU-unsplash.jpg" class="equipImg" alt="treadmills">
+        </div>
+        <div class="equipPanel">
+            <img src="static/Backgrounds/luis-reyes-mTorQ9gFfOg-unsplash.jpg" class="equipImg" alt="weights">
+            <h1 class="equipText">Seeking the strength of atlas,</h1>
+        </div>
+        <div class="equipPanel botPanel">
+            <h1 class="equipText ">Or envy the swimming of fish,</h1>
+            <img src="static/Backgrounds/serena-repice-lentini-TVOAbbLL050-unsplash.jpg" class="equipImg" alt="pool">
+        </div>
+        <h1>Whatever your fitness goals, Jim Gym's here to make it happen.</h1>
+
+
+        <h1>See some of our upcoming events.</h1>
+
+        <table id="events">
+            <tr>
+                <th>Event</th>
+                <th>Location</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Rock climbing introduction</td>
+                <td>The Rockclimbing Cave</td>
+                <td>4/14/2023</td>
+            </tr>
+            <tr>
+                <td>Triathalon</td>
+                <td>Starts at Jim Gym</td>
+                <td>4/16/2023</td>
+            </tr>
+            <tr>
+                <td>Lifting competition (entry $40)</td>
+                <td>Jim Gym</td>
+                <td>4/16/2023</td>
+            </tr>
+            <tr>
+                <td>Recreational boxing tourney</td>
+                <td>Jim Gym Underground</td>
+                <td>4/17/2023</td>
+            </tr>
+        </table>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot container">
+            <div class="footMap">
+                <img src="static/chicago map screenshot.png" alt="">
+            </div>
+            <div class="footInfo">
+                <h1>Info</h1>
+                <nobr><i class="fa-solid fa-map-location-dot"></i> Placeplace QU, 00000 United States</nobr><br>
+                <nobr><i class="fa-solid fa-envelope-open"></i> placeholder@email.com</nobr><br>
+                <nobr><i class="fa-solid fa-phone-volume"></i> (123)-456-78910</nobr>
+            </div>
+            <div class="footSocial">
+                <h1>Social</h1>
+                <nobr><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></nobr><br>
+                <nobr><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></nobr><br>
+                <nobr><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></nobr>
+
+            </div>
+        </div>
+          <!-- alt code 0169 -->
+        <div class="copy"> © 150 B.C.- 400 A.D, Jimgymfakecompany.com </div>
+    </footer>
+
+    
+    
+</body>
+</html>
